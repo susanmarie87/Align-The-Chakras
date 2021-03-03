@@ -1,45 +1,146 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+UX
+As a user, I want to browse merchandise.
 
-Welcome USER_NAME,
+The merchandise section can be found by clicking “Products” on the navigation bar. Upon arrival to the products page, user can use scroll feature to find the specific card for bracelets. The user will then be greeted with a “Coming Soon” button as this is MS1 and I have yet to learn how to implement a wide variety of products or a shopping cart.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+As a user, I want to search for body products.
 
-## Gitpod Reminders
+The body products section can be found by clicking “Products” on the navigation bar. Upon arrival to the products page, user can use scroll feature to find the specific card for bracelets. The user will then be greeted with a “Coming Soon” button as this is MS1 and I have yet to learn how to implement a wide variety of products or a shopping cart.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+As a user I want to sign up for classes.
 
-`python3 -m http.server`
+The user can click the “Classes” link on the navigation bar. Upon arrival at the Classes page. The user will be met with a “Sign Up!” button. The user will then click the button and form will appear.
 
-A blue button should appear to click: *Make Public*,
+As a user I want an obvious navigation link that lets me easily go to different pages in the site.
 
-Another blue button should appear to click: *Open Browser*.
+The site is equipped with an easy to find navigation bar. The links are fully functioning.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+As a user I want to easily be able to view the website on any size screen.
 
-A blue button should appear to click: *Make Public*,
+The site is designed to be mobile responsive.
 
-Another blue button should appear to click: *Open Browser*.
+Wireframes
+Basic Wireframes
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Final Wireframes
 
-## Updates Since The Instructional Video
+Existing Features
+Navigation bar allows users to easily choose the different pages they would like to visit.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Footer allows users to easily access our media sites where they have a chance to have more interaction with our brand.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Forms that allow users to contact us.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Social links allow users to easily acces our site.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Features Left to Implement
+A Product Listing Page needs to be added.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+A Shopping Cart feature needs to be added.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Technologies Used
+HTML5
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+CSS
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Bootstrap
 
---------
+Github
 
-Happy coding!
+Git
+
+W3C validation
+
+Testing
+Each page on the website was tested for screen resposiveness to ensure breakpoints.
+
+The code was ran through each specific validator to make sure it passed.
+
+Tested all fields on Contact Form to ensure error would appear if text was missing.
+
+Tested links on Landing Page to ensure they went to desired areas.
+
+Tested all links on Navbar to ensure they worked.
+
+Tested Wild Indigos links on Footer to ensure that link worked properly.
+
+Tested all social media links
+
+Ran HTML code through WS3 Markdown validator. Minor warnings appeared regarding button element not permitted in the "a" element. Resolved this by replacing button element with div element
+
+Removed unnecessary code that was flagged in HTML validator.
+
+Ran CSS through WS3 validator- PASSED.
+
+Deployment
+Wild Indigos has been deployed on GitHub Pages with the following process:
+
+All code was written on Gitpod, a cloud-based IDE.
+
+The code was then pushed to GitHub where it is stored in my Repository.
+
+Under the Settings section of the GitHub repository, scroll down to GitHub Pages section.
+
+Under 'Source' drop-down, the 'Master branch' was selected.
+
+Once selected, this publishes the project to GitHub Pages and displays the site URL.
+
+There is no difference between the deployed version and the development version.
+
+The code can be run locally through clone or download. You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
+
+The Clone option provides a URL, which you can use on your desktop IDE.
+
+The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine or uploaded to your cloud-based IDE workspace.
+
+Credits
+The contact form was adapted from WS3 schools: https://www.w3schools.com/
+
+The images were adapted from: https://www.unsplash.com
+
+Navbar and Cards were adapted from: http://www.bootstrap.com
+
+The responsive screen image was taken from: http://ami.responsivedesign.is/
+
+The images were resized with: https://tinypng.com/
+
+The font was adapted from: https://googlefonts.com/
+
+The icons were adapted from: https://fontawesome.com/
+
+Opening Image adapted from: 
+Acknowledgements
+Code Institute
+
+ALL of the Tutors who have helped me up to this point.
+
+Slack. For where would any new developers be without Slack? Shoutout to old school developers that had to learn without that support system. Specifically Anna Greaves and Simen Daehlin aka "Grandmaster Yoda," as it is always, at least 95% of the time, their answers that pop-up when I search for something on Slack. Those two could run the entire code world.
+
+Ignatius Ukwuoma, my mentor, for helping to guide me through ideas for my project and giving me motivation.
+
+Jim Lynx for helping me sort out a bracket and CSS issues as well as the valuable feedback and advice when I was ready to quit. Jim is a coding natural and should be hired immediately at Code Institute as a mentor upon completion. Or now for MS1 projects.
+
+Kevin Powell and his very awesome and concise videos.
+
+Learn Code Institute for their videos as well.
+
+About
+susanmarie87.github.io/wildindigostake51/
+Topics
+Resources
+ Readme
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Environments 1
+ github-pages Active
+Languages
+HTML
+88.4%
+ 
+CSS
+11.6%
+© 2021 GitHub, Inc.
