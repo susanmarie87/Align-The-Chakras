@@ -1,42 +1,34 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/susanmarie87/MS2-Game)
+
+Align The Chakras- MS2
+
+Align The Chakras is a simple card matching game. In this game we have several rows of cards. We then have to flip over two cards at a time in
+hopes of finding the match. In the event we do not choose the matching cards, our cards will automatically flip back over and we have
+the chance to try again. The cards will automatically shuffle for the next round. 
+
+Live site hosted on Github pages HERE
+
 UX
-As a user, I want to browse merchandise.
+As a user, I want to play a rousing matching game.
 
-The merchandise section can be found by clicking “Products” on the navigation bar. Upon arrival to the products page, user can use scroll feature to find the specific card for bracelets. The user will then be greeted with a “Coming Soon” button as this is MS1 and I have yet to learn how to implement a wide variety of products or a shopping cart.
+As a user I want the game to be able to keep my attention.
 
-As a user, I want to search for body products.
+As a user I want the game to be a good challenge
 
-The body products section can be found by clicking “Products” on the navigation bar. Upon arrival to the products page, user can use scroll feature to find the specific card for bracelets. The user will then be greeted with a “Coming Soon” button as this is MS1 and I have yet to learn how to implement a wide variety of products or a shopping cart.
+As a user choosing a card matching game, I want the memory game to sharpen my mind.
 
-As a user I want to sign up for classes.
+As a user, I want this game to function properly.
 
-The user can click the “Classes” link on the navigation bar. Upon arrival at the Classes page. The user will be met with a “Sign Up!” button. The user will then click the button and form will appear.
-
-As a user I want an obvious navigation link that lets me easily go to different pages in the site.
-
-The site is equipped with an easy to find navigation bar. The links are fully functioning.
-
-As a user I want to easily be able to view the website on any size screen.
-
-The site is designed to be mobile responsive.
+As a user, I want this game to be mobile first responsive.
 
 Wireframes
 Basic Wireframes
+![Image]('assets/Wireframes/MS2Wireframe(1).jpg')
+![Image]('assets/Wireframes/MS2Wireframe(2).jpg')
+![Image]('assets/Wireframes/MS2Wireframe(3).jpg')
 
-Final Wireframes
 
 Existing Features
-Navigation bar allows users to easily choose the different pages they would like to visit.
-
-Footer allows users to easily access our media sites where they have a chance to have more interaction with our brand.
-
-Forms that allow users to contact us.
-
-Social links allow users to easily acces our site.
-
-Features Left to Implement
-A Product Listing Page needs to be added.
-
-A Shopping Cart feature needs to be added.
 
 Technologies Used
 HTML5
@@ -49,23 +41,19 @@ Github
 
 Git
 
+JavaScript
+
 W3C validation
+
+AutoPrefixer
 
 Testing
 Each page on the website was tested for screen resposiveness to ensure breakpoints.
 
 The code was ran through each specific validator to make sure it passed.
 
-Tested all fields on Contact Form to ensure error would appear if text was missing.
 
 Tested links on Landing Page to ensure they went to desired areas.
-
-Tested all links on Navbar to ensure they worked.
-
-Tested Wild Indigos links on Footer to ensure that link worked properly.
-
-Tested all social media links
-
 Ran HTML code through WS3 Markdown validator. Minor warnings appeared regarding button element not permitted in the "a" element. Resolved this by replacing button element with div element
 
 Removed unnecessary code that was flagged in HTML validator.
@@ -73,7 +61,7 @@ Removed unnecessary code that was flagged in HTML validator.
 Ran CSS through WS3 validator- PASSED.
 
 Deployment
-Wild Indigos has been deployed on GitHub Pages with the following process:
+Align The Chakras has been deployed on GitHub Pages with the following process:
 
 All code was written on Gitpod, a cloud-based IDE.
 
@@ -93,54 +81,18 @@ The Clone option provides a URL, which you can use on your desktop IDE.
 
 The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine or uploaded to your cloud-based IDE workspace.
 
-Credits
-The contact form was adapted from WS3 schools: https://www.w3schools.com/
+Credits:
+CardFace Image
+https://unsplash.com/@maxineficheux
+https://images.unsplash.com/photo-1566745914757-00febc880ff9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjZ8fGxhdmVuZGVyJTIwZmxvd2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
 
-The images were adapted from: https://www.unsplash.com
-
-Navbar and Cards were adapted from: http://www.bootstrap.com
-
-The responsive screen image was taken from: http://ami.responsivedesign.is/
-
-The images were resized with: https://tinypng.com/
-
-The font was adapted from: https://googlefonts.com/
-
-The icons were adapted from: https://fontawesome.com/
-
-Opening Image adapted from: 
-Acknowledgements
+<a href='https://www.freepik.com/photos/flower'>Flower photo created by tawatchai07 - www.freepik.com</a>
+##Acknowledgements
 Code Institute
 
-ALL of the Tutors who have helped me up to this point.
+https://www.shutterstock.com/ja/blog/wp-content/uploads/sites/6/2017/02/shutterstock_438865177.jpg
 
-Slack. For where would any new developers be without Slack? Shoutout to old school developers that had to learn without that support system. Specifically Anna Greaves and Simen Daehlin aka "Grandmaster Yoda," as it is always, at least 95% of the time, their answers that pop-up when I search for something on Slack. Those two could run the entire code world.
 
-Ignatius Ukwuoma, my mentor, for helping to guide me through ideas for my project and giving me motivation.
+Flip Card inspiration and grid-
 
-Jim Lynx for helping me sort out a bracket and CSS issues as well as the valuable feedback and advice when I was ready to quit. Jim is a coding natural and should be hired immediately at Code Institute as a mentor upon completion. Or now for MS1 projects.
-
-Kevin Powell and his very awesome and concise videos.
-
-Learn Code Institute for their videos as well.
-
-About
-susanmarie87.github.io/wildindigostake51/
-Topics
-Resources
- Readme
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Environments 1
- github-pages Active
-Languages
-HTML
-88.4%
- 
-CSS
-11.6%
-© 2021 GitHub, Inc.
+https://stackoverflow.com/questions/57452099/how-do-i-add-grid-in-multiple-flip-cards-in-html
